@@ -2,7 +2,7 @@ name: troca
 on:
   push: 
     branches: 
-      - refs/tags/deploy-sandbox*
+      - refs/tags/*
 
 jobs:
   build:
