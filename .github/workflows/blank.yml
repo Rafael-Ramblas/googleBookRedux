@@ -1,5 +1,8 @@
 name: Deploy to sandbox
-on: [push]
+on:
+  create: 
+    tags: 
+      - '*'
 jobs:
   build:
 
