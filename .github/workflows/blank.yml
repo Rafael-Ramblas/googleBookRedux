@@ -1,8 +1,5 @@
 name: Deploy to sandbox
-on:
-  push: 
-    branches: 
-      - refs/tags/deploy-sandbox*
+on: [push]
 jobs:
   build:
 
