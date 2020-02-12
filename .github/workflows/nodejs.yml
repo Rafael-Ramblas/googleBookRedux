@@ -1,4 +1,4 @@
-name: Node.js CI
+name: troca
 on:
   push: 
     branches: 
