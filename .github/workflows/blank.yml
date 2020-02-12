@@ -1,8 +1,8 @@
 name: Deploy to sandbox
 on:
-  create: 
-    tags: 
-      - '*'
+  push: 
+    branches: 
+      - ref/tags/'*'
 jobs:
   build:
 
