@@ -2,7 +2,7 @@ name: Deploy to sandbox
 on:
   push: 
     branches: 
-      - ref/tags/'*'
+      - refs/tags/'*'
 jobs:
   build:
 
