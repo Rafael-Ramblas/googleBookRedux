@@ -1,8 +1,12 @@
 name: VAI
+
 on:
   push: 
     branches: 
-      - refs/tags/deploy-sandbox*
+      - refs/tags/*
+  create: 
+    branches: 
+      - refs/tags/*
 
 jobs:
   build:
